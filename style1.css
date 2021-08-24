@@ -46,12 +46,12 @@ h3{
 }
 
 .cadastro1{
-    margin-top: 2%;
+    margin-top: 40px;
     background-color: #F6F6F6;
     border-radius: 20px;
     height: 100%;
     width: 25%;
-    min-height: 450px;
+    min-height: 500px;
     min-width: 400px;
     display: flex;
     flex-direction: column;
@@ -59,34 +59,22 @@ h3{
     align-items: center;
     justify-content: space-around;
     padding-bottom: 20px;
-}
-
-.cadastro1-elements{ 
-    height: 90%;
-    width: 100%;
-    min-height: 300px;
-    min-width: 400px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
+    padding-top: 20px;
 }
 
 div.inputs{
     display: flex;
     flex-direction: column;
-    height: 35%;
+    height: 40%;
     width: 100%;
     padding-left: 35px;
 }
-
 
 input {
     width: 90%;
     min-width: 300px;
     height: 9%;
     min-height: 43px;
-
 }
 
 input.cpf {
