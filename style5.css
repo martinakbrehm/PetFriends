@@ -1,0 +1,133 @@
+body {
+    margin: 0;
+}
+
+header{
+    background-color: #0E60AB;
+    margin: 0;
+    padding: 10px 10vw;
+    display: flex;
+}
+
+h1 {
+    font-family: Roboto;
+    font-size: 45px;
+    margin: 0;
+}
+
+h1.pet{
+    color: white;
+}
+
+h1.friends{
+    color: #05C1FC;
+}
+
+.background{
+    height: 60vh;
+    margin: 0;
+    background-color: #0E60AB;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+h3{
+    font-family: Merriweather Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 200%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+    margin: 0px;
+}
+
+.cadastro1{
+    margin-top: 40px;
+    background-color: #F6F6F6;
+    border-radius: 20px;
+    height: 100%;
+    width: 25%;
+    min-height: 500px;
+    min-width: 400px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.25);
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+div.inputs{
+    display: flex;
+    flex-direction: column;
+    height: 40%;
+    width: 100%;
+    padding-left: 35px;
+}
+
+input {
+    width: 90%;
+    min-width: 300px;
+    height: 9%;
+    min-height: 43px;
+}
+
+input.cpf {
+    margin: 0px 0px 5px 0px;
+}
+
+input.estado {
+    margin: 10% 0px 5px 0px;
+}
+
+input.cidade {
+    margin: 10% 0px 5px 0px;
+}
+
+input.button1{
+    border-radius: 75px;
+    background-color: #05C1FC;
+    border: 0px;
+    color: white;
+    height: 12%;
+    width: 70%;
+    font-family: Merriweather Sans;
+    font-size: 23px;
+}
+
+a {
+    font-family: Merriweather Sans;
+    font-weight: normal;
+    font-size: 14px;
+    text-align: center;
+    margin: 100px 0px 0px 0px;
+}
+
+h4.colados1{
+    font-family: Merriweather Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+    margin: 100px 0px 0px 0px;
+}
+
+h4.colados2{
+    font-family: Merriweather Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+    margin: 0px;
+}
