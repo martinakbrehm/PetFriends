@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PetFriends - Login</title>
+    <script src="login.js"></script>
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,12 +19,15 @@
         <div class="login">
             <div class="login-elements">
                 <h3>Acesse sua conta</h3>
-                <div class="inputs">
-                    <input class="email"type="text" placeholder="E-mail">
-                    <input class="password"type="password" placeholder="Senha">
+                <div name="inputs"class="inputs">
+                    <form name="inputs">
+                        <input name="email"class="email"type="text" placeholder="E-mail" onblur="verifyEmail()">
+                        <input name="password"class="password"type="password" placeholder="Senha" onblur="verifyPassword()">
+                    </form>
+                    
                     <a href="http://google.com"'>Esqueci minha senha</a>
                 </div>
-                <input class="button" type="button" value="Entrar"> 
+                <input class="button" type="button" value="Entrar" onclick="verifyLogin()"> 
             </div>  
             <div class=cadastro>
                 <p>Ainda não tem conta?</p>
