@@ -1,19 +1,23 @@
 
 function verifyCPF() {
     if (inputs.cpf.value == "") {
-        window.alert("Nenhum CPF foi digitado!")
+        inputs.cpf.style="border:1px solid;border-color: red"
+    }
+    else if (inputs.cpf.length !== 11) {
+        window.alert("CPF inválido")
+        inputs.cpf.style="border:1px solid;border-color: red"
     }
 }
 
 function verifyEstado() {
     if (inputs.estado.value == "") {
-        window.alert("Nenhum estado foi digitado!")
+        inputs.estado.style="border:1px solid;border-color: red"
     }   
 }
 
 function verifyCidade() {
     if (inputs.cidade.value == "") {
-        window.alert("Nenhuma cidade foi digitada!")
+        inputs.cidade.style="border:1px solid;border-color: red"
     }   
 }
 
