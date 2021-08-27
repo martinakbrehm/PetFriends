@@ -23,6 +23,15 @@ function verifyCidade() {
 
 function verifyCadastro1() {
     verifyCPF()
+    if (inputs.cpf.value == "") {
+        window.alert("CPF obrigatório")
+    }
     verifyEstado()
+    if (inputs.estado.value == "") {
+        window.alert("Estado obrigatório")
+    }
     verifyCidade()
+    if (inputs.cidade.value == "") {
+        window.alert("Cidade obrigatória")
+    }
 }

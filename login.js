@@ -23,5 +23,11 @@ function verifyPassword() {
 
 function verifyLogin() {
     verifyEmail()
+    if (inputs.email.value == "") {
+        window.alert("Email obrigatório")
+    }
     verifyPassword()
+    if (inputs.password.value == "") {
+        window.alert("Senha obrigatória")
+    }
 }
