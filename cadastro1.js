@@ -3,7 +3,7 @@ function verifyCPF() {
     if (inputs.cpf.value == "") {
         inputs.cpf.style="border:1px solid;border-color: red"
     }
-    else if (inputs.cpf.length !== 11) {
+    else if (inputs.cpf.value.length !== 11) {
         window.alert("CPF inválido")
         inputs.cpf.style="border:1px solid;border-color: red"
     }
