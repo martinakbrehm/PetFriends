@@ -1,3 +1,10 @@
+
+Para rodar o "banco de dados" pets.json via [json-server](https://www.npmjs.com/package/json-server):
+
+```npm install -g json-server```
+<br>
+```json-server pets.json```
+
 # PetFriends
 Trabalho da disciplina de Programação Web
 
