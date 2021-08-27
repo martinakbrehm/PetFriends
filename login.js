@@ -1,3 +1,19 @@
+
+// Espera carregar a página
+document.addEventListener('DOMContentLoaded', function() {
+    
+    //Guarda os inputs em constantes
+    const email = document.getElementById('email')
+    const password = document.getElementById('password')
+    const submit = document.getElementById('submit')
+
+    //Espera os eventos de blur ou click nos elementos selecionados
+    email.addEventListener("blur", verifyEmail)
+    password.addEventListener("blur", verifyPassword)
+    submit.addEventListener("click", verifyLogin)
+})
+
+
 function verifyEmail() {
     if (inputs.email.value == "") {
         inputs.email.style="border:1px solid;border-color: red"
