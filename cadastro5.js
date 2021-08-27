@@ -1,3 +1,6 @@
+function verifyCadastro5() {
+
+}
 
 
 
