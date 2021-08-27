@@ -1,0 +1,115 @@
+body {
+    margin: 0;
+}
+
+header{
+    background-color: #0E60AB;
+    margin: 0;
+    padding: 10px 10vw;
+    display: flex;
+}
+
+h1 {
+    font-family: Roboto;
+    font-size: 45px;
+    margin: 0;
+}
+
+h1.pet{
+    color: white;
+}
+
+h1.friends{
+    color: #05C1FC;
+}
+
+.background{
+    height: 60vh;
+    margin: 0;
+    background-color: #0E60AB;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+h3{
+    font-family: Merriweather Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 200%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+    margin: 0px;
+}
+
+
+.cadastro2{
+    margin-top: 40px;
+    background-color: #F6F6F6;
+    border-radius: 20px;
+    height: 95%;
+    width: 25%;
+    min-height: 500px;
+    min-width: 400px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.25);
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 20px;
+    
+    padding-top: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    height: 80%;
+    width: 100%;
+    margin-top: 60px;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+input {
+    width: 90%;
+    min-width: 300px;
+    height: 9%;
+    min-height: 43px;
+}
+
+
+input.nome {
+    margin: 0px 0px 5px 0px;
+}
+
+
+input.email {
+    margin: 10% 0px 5px 0px;
+}
+
+
+input.senha1 {
+    margin: 10% 0px 0px 0px;
+}
+
+input.senha2 {
+    margin: 10% 0px 5px 0px;
+}
+
+input.button_cadastro{
+    border-radius: 75px;
+    background-color: #05C1FC;
+    border: 0px;
+    color: white;
+    height: 12%;
+    width: 70%;
+    margin-top: 15px;
+    font-family: Merriweather Sans;
+    font-size: 23px;
+}
+

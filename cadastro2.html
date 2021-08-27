@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PetFriends - Cadastro</title>
+    <script src="cadastro2.js"></script>
+    <link rel="stylesheet" type="text/css" href="style2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,400;1,300&family=Roboto:wght@900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1 class='pet'>Pet</h1><h1 class='friends'>Friends</h1>
+    </header>
+    <div class="background">
+        <div class="cadastro2">
+            <h3>Crie a sua conta, <strong> grátis</strong></h3> 
+                       
+            
+            <form name = formulario>               
+                <input name="nome" class = "nome" type="text" placeholder="Nome" onblur="verificar_nome()">              
+                <input name="email" class="email" type="text" placeholder="Email" onblur="verificar_email()">               
+                <input name="senha1" class="senha1" type="text" placeholder="Senha" onblur="verificar_senha1()">
+                <input name="senha2" class="senha2" type="text" placeholder="Senha" onblur="verificar_senha2()">                              
+                <input class="button_cadastro" type="button" value="Próximo">
+                
+            </form>
+            
+            
+        </div>
+        
+    </div>
+
+</body>
+</html>
