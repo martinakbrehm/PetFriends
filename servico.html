@@ -5,8 +5,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PetFriends - Serviço</title>
+    <script src="servico.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,400;1,300&family=Roboto:wght@300;500;700;800;900&display=swap" rel="stylesheet">
 </head>
 <body>
-    
+    <header>
+        <h1 class='pet'>Pet</h1><h1 class='friends'>Friends</h1>
+    </header>
+    <div class="background">
+        <div class="card" id="0">
+            <img src="assets/jonas.png">
+            <div class="descricao">
+                <div class="nome">
+                    <h2>Jonas,</h2><h2 class="idade">5 anos</>
+                </div>
+                <p class="raca">Labrador</p>
+                <p class="sobre">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer viverra leo vitae lectus pretium, a laoreet nunc ultricies. Sed quis convallis tellus. Praesent ut faucibus eros. Nam ex velit, blandit id mauris vel, vulputate suscipit nisl. Curabitur arcu massa, ultrices a sapien eget, fermentum feugiat neque. Donec convallis in eros non porttitor. </p>    
+            </div>
+            <div class="buttons">
+                <button class="dislike"><img class="icon" src="assets/dislike.png" onclick="hideCard()"></button>
+                <button class="like"><img class="icon" src="assets/like.png" onclick="hideCard()"></button>
+            </div> 
+        </div>
+
+    </div>
 </body>
 </html>
