@@ -17,18 +17,12 @@
     </header>
     <div class="background">
         <div class="login">
-            <div class="login-elements">
-                <h3>Acesse sua conta</h3>
-                <div name="inputs"class="inputs">
-                    <form name="inputs">
-                        <input name="email"class="email"type="text" placeholder="E-mail" onblur="verifyEmail()">
-                        <input name="password"class="password"type="password" placeholder="Senha" onblur="verifyPassword()">
-                    </form>
-                    
-                    <a href="http://google.com"'>Esqueci minha senha</a>
-                </div>
-                <input class="button" type="button" value="Entrar" onclick="verifyLogin()"> 
-            </div>  
+            <h3>Acesse sua conta</h3>
+            <form name="inputs">
+                <input name="email"class="email"type="email" placeholder="E-mail" onblur="verifyEmail()">
+                <input name="password"class="password"type="password" placeholder="Senha" onblur="verifyPassword()">         
+                <input class="button" type="submit" value="Entrar" onclick="verifyLogin()"> 
+            </form> 
             <div class=cadastro>
                 <p>Ainda não tem conta?</p>
                 <a class=cadastro href='cadastro.html'>Cadastre-se</a>

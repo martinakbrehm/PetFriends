@@ -28,12 +28,13 @@ h1.friends{
     margin: 0;
     background-color: #0E60AB;
     display: flex;
-    flex-direction: row;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
 }
 
 
-h3{
+h3 {
     font-family: Merriweather Sans;
     font-style: normal;
     font-weight: normal;
@@ -45,7 +46,7 @@ h3{
     margin: 0px;
 }
 .login{
-    margin-top: 2%;
+    margin-top: 40px;
     background-color: #F6F6F6;
     border-radius: 20px;
     height: 100%;
@@ -71,14 +72,17 @@ h3{
     justify-content: space-around;
 }
 
-
-div.inputs{
+form {
     display: flex;
     flex-direction: column;
-    height: 35%;
+    height: 60%;
     width: 100%;
-    padding-left: 35px;
+    margin-top: 30px;
+    justify-content: center;
+    align-items: center;
+
 }
+
 
 a {
     font-family: Merriweather Sans;
@@ -93,7 +97,6 @@ input {
     min-width: 300px;
     height: 9%;
     min-height: 43px;
-
 }
 
 input.email {
@@ -120,6 +123,7 @@ input.button{
     color: white;
     height: 12%;
     width: 70%;
+    margin-top: 80px;
     font-family: Merriweather Sans;
     font-size: 23px;
 }
@@ -142,4 +146,101 @@ a.cadastro{
     margin: 0px 0px 0px 6px;
     font-family: Merriweather Sans;
     font-size: 16px;
+}
+
+.card{
+    margin-top: 40px;
+    background-color: #F6F6F6;
+    border-radius: 20px;
+    height: 100%;
+    width: 33%;
+    min-height: 750px;
+    min-width: 600px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.25);
+    align-items: center;
+    justify-content: flex-start;
+    padding-bottom: 20px;
+}
+
+.card2{
+    margin-top: 60px;
+    background-color: #F6F6F6;
+    border-radius: 20px;
+    height: 100%;
+    width: 33%;
+    min-height: 750px;
+    min-width: 600px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.25);
+    align-items: center;
+    justify-content: flex-start;
+    padding-bottom: 20px;
+}
+
+
+img {
+    border-radius: 18px;
+    width: 100%;
+}
+
+h2 {
+    font-family: Roboto;
+    font-size: 30px;
+    margin: 0;
+    margin-right: 5px;
+}
+
+h2.idade {
+    font-weight: 300;
+}
+
+div.descricao{
+    width: 90%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+div.nome {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+p.raca {
+    font-family: Roboto;
+    font-weight: 700;
+    margin: 8px 0px;
+}
+
+p.sobre {
+    font-weight: 500;
+    font-size: 14px;
+    margin-top: 15px;
+}
+
+div.buttons{
+    padding-top: 40px;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+button {
+    border-radius: 50px;
+    width: 86.16px;
+    min-width: 86px;
+    height: 87.06px;
+}
+
+img.icon {
+    height: 60%;
+    width: 70%;
 }
