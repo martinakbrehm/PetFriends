@@ -1,37 +1,88 @@
+// Espera carregar a página
+document.addEventListener('DOMContentLoaded', function() {
+    
+    //Guarda os inputs em constantes
+    const email = document.querySelector('.email')
+    const senha1 = document.querySelector('.senha1')
+    const submit = document.querySelector('.button_cadastro')
+    const senha2 = document.querySelector('.senha2')
+    const nome = document.querySelector('.nome')
 
-function verifyCPF() {
-    if (inputs.cpf.value == "") {
-        inputs.cpf.style="border:1px solid;border-color: red"
+    //Espera os eventos de blur ou click nos elementos selecionados
+    nome.addEventListener("blur", verificar_nome)
+    email.addEventListener("blur", verificar_email)
+    senha1.addEventListener("blur", verificar_senha1)
+    senha2.addEventListener("blur", verificar_senha2)
+
+})
+
+function verificar_nome() {
+    if (formulario.nome.value == "") {
+        formulario.nome.style="border:1px solid;border-color: red"
+        return false
     }
-    else if (inputs.cpf.value.length !== 11) {
-        window.alert("CPF inválido")
-        inputs.cpf.style="border:1px solid;border-color: red"
+    else {
+        return true
     }
 }
 
-function verifyEstado() {
-    if (inputs.estado.value == "") {
-        inputs.estado.style="border:1px solid;border-color: red"
+function verificar_email() {
+    if (formulario.email.value == "") {
+        formulario.email.style="border:1px solid;border-color: red"
+        return false
     }   
+    else {
+        return true
+    }
 }
 
-function verifyCidade() {
-    if (inputs.cidade.value == "") {
-        inputs.cidade.style="border:1px solid;border-color: red"
-    }   
+function verificar_senha1() {
+    if (formulario.senha1.value == "") {
+        formulario.senha1.style="border:1px solid;border-color: red"
+        return false
+    } 
+    else {
+        return true
+    }
 }
 
-function verifyCadastro1() {
-    verifyCPF()
-    if (inputs.cpf.value == "") {
-        window.alert("CPF obrigatório")
-    }
-    verifyEstado()
-    if (inputs.estado.value == "") {
-        window.alert("Estado obrigatório")
-    }
-    verifyCidade()
-    if (inputs.cidade.value == "") {
-        window.alert("Cidade obrigatória")
+function verificar_senha2() {
+    if (formulario.senha2.value == "") {
+        formulario.senha2.style="border:1px solid;border-color: red"
+        window.alert("Digite a senha novamente")
+        return false
+    } 
+    if (formulario.senha1.value !== formulario.senha2.value){
+        window.alert("As senhas não conferem")
+    }  
+    else {
+        return true
     }
 }
+
+function verificar_cadastro(){
+
+    verificar_nome()
+    if (formulario.nome.value == "") {
+        window.alert("Nome obrigatório")
+    
+    }
+    verificar_email()
+    if (formulario.email.value == "") {
+        window.alert("Email obrigatório")
+    }
+    verificar_senha1()
+    verificar_senha2()
+    if (formulario.senha1.value == "" || formulario.senha2.value == "") {
+        window.alert("Senha obrigatória")
+    }
+
+    if (verificar_nome() && verificar_email() && verificar_senha1() && verificar_senha2()) {
+        window.location = 'cadastro2.html'
+    }
+
+    return false
+
+}
+
+

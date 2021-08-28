@@ -15,23 +15,17 @@
     <header>
         <h1 class='pet'>Pet</h1><h1 class='friends'>Friends</h1>
     </header>
+
     <div class="background">
-        <div class="cadastro2">
-            <h3>Crie a sua conta, <strong> grátis</strong></h3> 
-                       
-            
-            <form name = formulario>               
-                <input name="nome" class = "nome" type="text" placeholder="Nome" onblur="verificar_nome()">              
-                <input name="email" class="email" type="text" placeholder="Email" onblur="verificar_email()">               
-                <input name="senha1" class="senha1" type="text" placeholder="Senha" onblur="verificar_senha1()">
-                <input name="senha2" class="senha2" type="text" placeholder="Senha" onblur="verificar_senha2()">                              
-                <input class="button_cadastro" type="button" value="Próximo">
-                
-            </form>
-            
-            
+        <div class="cadastro1">
+            <h3>Crie sua conta grátis</h3>
+                <form onsubmit = "return verifyCadastro1()"name="inputs">
+                    <input name="cpf" class="cpf" type="text" placeholder="CPF" onblur="verifyCPF()">
+                    <input name="estado" class="estado" type="text" placeholder="Estado" onblur="verifyEstado()">
+                    <input name="cidade" class="cidade" type="text" placeholder="Cidade" onblur="verifyCidade()">
+                    <input class="button1" type="submit" value="Próximo">
+                </form> 
         </div>
-        
     </div>
 
 </body>
