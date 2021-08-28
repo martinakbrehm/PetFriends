@@ -83,10 +83,6 @@ input.cpf {
     margin: 0px 0px 5px 0px;
 }
 
-input.estado {
-    margin: 10% 0px 5px 0px;
-}
-
 input.cidade {
     margin: 10% 0px 5px 0px;
 }
@@ -103,3 +99,13 @@ input.button1{
     font-size: 23px;
 }
 
+select {
+    width: 90%;
+    min-width: 300px;
+    height: 9%;
+    min-height: 43px;
+}
+
+select.estado {
+    margin: 10% 0px 5px 0px;
+}
