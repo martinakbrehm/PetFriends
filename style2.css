@@ -45,8 +45,7 @@ h3{
     margin: 0px;
 }
 
-
-.cadastro2{
+.cadastro1{
     margin-top: 40px;
     background-color: #F6F6F6;
     border-radius: 20px;
@@ -60,7 +59,6 @@ h3{
     align-items: center;
     justify-content: space-around;
     padding-bottom: 20px;
-    
     padding-top: 20px;
 }
 
@@ -72,7 +70,6 @@ form {
     margin-top: 60px;
     align-items: center;
     justify-content: center;
-    
 }
 
 input {
@@ -82,33 +79,26 @@ input {
     min-height: 43px;
 }
 
-
-input.nome {
+input.cpf {
     margin: 0px 0px 5px 0px;
 }
 
-
-input.email {
+input.estado {
     margin: 10% 0px 5px 0px;
 }
 
-
-input.senha1 {
-    margin: 10% 0px 0px 0px;
-}
-
-input.senha2 {
+input.cidade {
     margin: 10% 0px 5px 0px;
 }
 
-input.button_cadastro{
+input.button1{
     border-radius: 75px;
     background-color: #05C1FC;
     border: 0px;
     color: white;
     height: 12%;
     width: 70%;
-    margin-top: 15px;
+    margin-top: 120px;
     font-family: Merriweather Sans;
     font-size: 23px;
 }

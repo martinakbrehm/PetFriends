@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PetFriends - Cadastro1</title>
+    <title>PetFriends - Cadastro</title>
     <script src="cadastro1.js"></script>
     <link rel="stylesheet" type="text/css" href="style1.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -15,17 +15,22 @@
     <header>
         <h1 class='pet'>Pet</h1><h1 class='friends'>Friends</h1>
     </header>
-
     <div class="background">
-        <div class="cadastro1">
-            <h3>Crie sua conta grátis</h3>
-                <form name="inputs">
-                    <input name="cpf" class="cpf" type="text" placeholder="CPF" onblur="verifyCPF()">
-                    <input name="estado" class="estado" type="text" placeholder="Estado" onblur="verifyEstado()">
-                    <input name="cidade" class="cidade" type="text" placeholder="Cidade" onblur="verifyCidade()">
-                    <input class="button1" type="submit" value="Próximo" onclick="verifyCadastro1()">
-                </form> 
+        <div class="cadastro2">
+            <h3>Crie a sua conta, <strong> grátis</strong></h3> 
+                       
+            
+            <form onsubmit="return verificar_cadastro()" name = "formulario">               
+                <input name="nome" class = "nome" type="text" placeholder="Nome">              
+                <input name="email" class="email" type="text" placeholder="Email">               
+                <input name="senha1" class="senha1" type="text" placeholder="Senha">
+                <input name="senha2" class="senha2" type="text" placeholder="Senha">                              
+                <input class="button_cadastro" type="submit" value="Próximo">      
+            </form>
+            
+            
         </div>
+        
     </div>
 
 </body>
