@@ -20,20 +20,19 @@
     <div class="background">
         <div class="cadastro4">
             <h3>Crie sua conta grátis</h3>
-            <div class="fotos">
-                <form name="fotos">
-                    <h2>Fotos:</h2>
-                    <img src="gato.jpg">
-                </form>
+            <div id="fotos">
+                <h2>Fotos:</h2>
+                <img src="assets/gato.jpg">
+            </div>
+
+            
+            <form method="post" action="cadastro5.html" name="fotos">
+                <input type="file" id="botaoadd" name="botaoadd" accept="image/*">
+                <input class="button1" type="submit" value="Finalizar" onclick="finalizarCadastro()">
+            </form>
                 
-            </div>
-            <div class="max-width">
-                <div class="imageContainer">
-                    <img src="botaoadd.png" alt="Selecione uma imagem" id="imagemFoto">
-                </div>
-            </div>
-            <input type="file" id="botaoadd" name="botaoadd" accept="image/*">
-            <input class="button1" type="button" value="Finalizar" onclick="finalizarCadastro()">
+
+
         </div>
     </div>
 

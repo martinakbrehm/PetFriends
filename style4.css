@@ -62,9 +62,27 @@ h3{
     padding-top: 20px;
 }
 
-img{
-	width: 140px;
-	height: 140px;
+h2{
+    font-family: Merriweather Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: darkslategrey;
+}
+
+img {
+    border-radius: 20px;
+    width: 40%;
+
+
+}
+
+div#fotos{
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
 }
 
 input.button1{
@@ -72,14 +90,21 @@ input.button1{
     background-color: #05C1FC;
     border: 0px;
     color: white;
-    height: 12%;
+    height: 45px;
     width: 70%;
     font-family: Merriweather Sans;
     font-size: 23px;
 }
-input.buttonadd{
-    width:50px;
-    height:50px;
-    background: url(botaomais.png) no repeat;
 
+input#botaoadd{
+    margin-bottom: 60px;
+    background: url(botaomais.png) no repeat;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    height: 40%;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: center;
 }
