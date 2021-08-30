@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PetFriends - Login</title>
+    <title>PetFriends - Cadastro</title>
+    <script src="cadastro3.js"></script>
     <link rel="stylesheet" type="text/css" href="style3.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,28 +17,77 @@
     </header>
     <div class="background">
         <div class="cadastro3">
-            <h3>Crie sua conta, <strong>grátis</strong></h3>
-            <form method="post" action="cadastro4.html" >
-                <input class="nomedopet"type="text" placeholder="Nome do Pet">
-                <div class= "pares">
-                    <input class="par"type="text" placeholder="Natureza">
-                    <input class="par" type="text" value="Raça">
-                </div>
-                <div class= "pares">
-                    <input class="par" type="text" value="Idade">
-                    <input class="par" type="text" value="Sexo">
-                </div>
-                <div class= "pares">
-                    <input class="par" type="text" value="Tamanho">
-                    <input class="par" type="text" value="Castrado?">
-                </div>
-                <input class="sobre" type="text" value="Sobre">
-                <input class="proximo" type="submit" value="Próximo">
-            </form>  
-                
-        </div>
-    </div>
+            <h3>Crie a sua conta, <strong> grátis</strong></h3> 
+                       
+            
+            <form onsubmit="return verificar_cadastro()" name = "formulario"> 
+                <div class=impares>             
+                    <input name="nome_do_pet" class = "impar" type="text" placeholder="Nome do pet">   
+                </div> 
+                <div class=pares>         
+                    <select class="par" name="natureza" form="formulario">
+                        <option value="cachorro">Cachorro</option>
+                        <option value="gato">Gato</option>
 
+                    </select> 
+                    <input name="raca" class="par" type="text" placeholder="Raça"> 
+                </div>  
+                <div class="pares">
+                    <select class="par" name="idade" form="formulario">
+                        <option value="0">Menos de 1 ano</option>
+                        <option value="1">1 ano</option>
+                        <option value="2">2 anos</option>
+                        <option value="3">3 anos</option>
+                        <option value="4">4 anos</option>
+                        <option value="5">5 anos</option>
+                        <option value="6">6 anos</option>
+                        <option value="7">7 anos</option>
+                        <option value="8">8 anos</option>
+                        <option value="9">9 anos</option>
+                        <option value="10">10 anos</option>
+                        <option value="11">11 anos</option>
+                        <option value="12">12 anos</option>
+                        <option value="13">13 anos</option>
+                        <option value="14">14 anos</option>
+                        <option value="15">15 anos</option>
+                        <option value="16">16 anos</option>
+                        <option value="17">17 anos</option>
+                        <option value="18">18 anos</option>
+                        
+
+                    </select> 
+                    <select class="par" name="sexo" form="formulario">
+                        <option value="f">Fêmea</option>
+                        <option value="m">Macho</option>
+
+                    </select>
+                </div>
+                <div class="pares">
+                    <select class="par" name="tamanho" form="formulario">
+                        <option value="1">Porte pequeno</option>
+                        <option value="2">Porte médio</option>
+                        <option value="3">Porte grande</option>
+                        <option value="4">Porte gigante</option>
+
+                    </select>   
+                    <select class="par" name="castrado" form="formulario">
+                        <option value="s">O pet é castrado</option>
+                        <option value="n">O pet não é castrado</option>
+
+                    </select> 
+                </div> 
+                <div class=impares> 
+                    <input name="sobre" class="impar" type="text" placeholder="Sobre"> 
+                </div>  
+
+                                             
+                <input class="button_cadastro" type="submit" value="Próximo">      
+            </form>
+            
+            
+        </div>
+        
+    </div>
 
 </body>
 </html>
