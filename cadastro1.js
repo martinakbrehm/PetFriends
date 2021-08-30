@@ -30,7 +30,12 @@ function verificar_email() {
     if (formulario.email.value == "") {
         formulario.email.style="border:1px solid;border-color: red"
         return false
-    }   
+    } 
+    else if (!/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(formulario.email.value)){
+        formulario.email.style="border:1px solid;border-color: red"
+        window.alert("E-mail inválido")
+        return false  
+    }    
     else {
         return true
     }
