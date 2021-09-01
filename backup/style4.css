@@ -45,12 +45,12 @@ h3{
     margin: 0px;
 }
 
-
-.cadastro3{
+.cadastro4{
+    position: absolute;
     margin-top: 40px;
     background-color: #F6F6F6;
     border-radius: 20px;
-    height: 95%;
+    height: 60%;
     width: 25%;
     min-height: 500px;
     min-width: 400px;
@@ -58,60 +58,45 @@ h3{
     flex-direction: column;
     box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.25);
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     padding-bottom: 20px;
-    
     padding-top: 20px;
+}
+
+h2{
+    font-family: Merriweather Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: darkslategrey;
+}
+
+img {
+    border-radius: 20px;
+    width: 40%;
+}
+
+
+input.button1{
+    border-radius: 75px;
+    background-color: #05C1FC;
+    border: 0px;
+    color: white;
+    height: 45px;
+    width: 70%;
+    font-family: Merriweather Sans;
+    font-size: 23px;
 }
 
 form {
     display: flex;
     flex-direction: column;
-    height: 80%;
+    height: 60%;
     width: 100%;
-    margin-top: 60px;
+    justify-content: space-around;
     align-items: center;
-    justify-content: center;
-    
 }
 
-
-.impar {
-    width: 100%;
-    margin: 2px;
+input#link {
+    width: 60%;
 }
-
-.pares{
-    display: flex;
-    flex-direction:row;
-    width: 90%;
-    height: 13%;
-    margin: 8px 0px 8px 0px;
-}
-
-.impares{
-    display: flex;
-    width: 90%;
-    height: 13%;
-    margin: 8px 0px 8px 0px;
-}
-.par {
-    width: 50%;
-    margin: 2px;
-
-}
-
-
-
-input.button_cadastro{
-    border-radius: 75px;
-    background-color: #05C1FC;
-    border: 0px;
-    color: white;
-    height: 12%;
-    width: 70%;
-    margin-top: 15px;
-    font-family: Merriweather Sans;
-    font-size: 23px;
-}
-

@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PetFriends - Cadastro</title>
+    <script src="cadastro.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,400;1,300&family=Roboto:wght@900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1 class='pet'>Pet</h1><h1 class='friends'>Friends</h1>
+    </header>
+    <div class="background">
+        
+        <div class="cadastro5">
+            <h3>Quase lá!</h3>
+            <h4 class='colados1'>O cadastro foi concluído</h4>
+            <form method="post" action="./login.html" >
+                <input class="button1" type="submit" value="Entrar na sua conta">
+            </form>
+        </div>
+
+        <div class="cadastro4">
+            <h3>Crie sua conta <strong>grátis</strong></h3>
+            <div id="fotos">
+                <h2 class='fotos'>Fotos:</h2>
+            </div>
+
+            <form id="cadastro4" onsubmit="return verifyCadastro4()" name="formulario4">
+                <input type="text" id="foto" name="foto" placeholder="Link da foto">
+                <input class="button1" type="submit" value="Finalizar">
+            </form>
+        </div>
+
+        <div class="cadastro3">
+            <h3>Crie a sua conta<strong> grátis</strong></h3> 
+                       
+            
+            <form id="cadastro3" onsubmit="return verificar_cadastro3()" name = "formulario3"> 
+                <div class=impares>             
+                    <input id="nome_do_pet"name="nome_do_pet" class = "impar" type="text" placeholder="Nome do pet">   
+                </div> 
+                <div class=pares>         
+                    <select id="natureza"class="par" name="natureza" form="formulario">
+                        <option value="cachorro">Cachorro</option>
+                        <option value="gato">Gato</option>
+
+                    </select> 
+                    <input id="raca"name="raca" class="par" type="text" placeholder="Raça"> 
+                </div>  
+                <div class="pares">
+                    <select id="idade"class="par" name="idade" form="formulario">
+                        <option value="Menos de 1 ano">Menos de 1 ano</option>
+                        <option value="1 ano">1 ano</option>
+                        <option value="2 anos">2 anos</option>
+                        <option value="3 anos">3 anos</option>
+                        <option value="4 anos">4 anos</option>
+                        <option value="5 anos">5 anos</option>
+                        <option value="6 anos">6 anos</option>
+                        <option value="7 anos">7 anos</option>
+                        <option value="8 anos">8 anos</option>
+                        <option value="9 anos">9 anos</option>
+                        <option value="10 anos">10 anos</option>
+                        <option value="11 anos">11 anos</option>
+                        <option value="12 anos">12 anos</option>
+                        <option value="13 anos">13 anos</option>
+                        <option value="14 anos">14 anos</option>
+                        <option value="15 anos">15 anos</option>
+                        <option value="16 anos">16 anos</option>
+                        <option value="17 anos">17 anos</option>
+                        <option value="18 anos">18 anos</option>
+                        
+
+                    </select> 
+                    <select id="sexo"class="par" name="sexo" form="formulario">
+                        <option value="f">Fêmea</option>
+                        <option value="m">Macho</option>
+
+                    </select>
+                </div>
+                <div class="pares">
+                    <select id="tamanho"class="par" name="tamanho" form="formulario">
+                        <option value="1">Porte pequeno</option>
+                        <option value="2">Porte médio</option>
+                        <option value="3">Porte grande</option>
+                        <option value="4">Porte gigante</option>
+
+                    </select>   
+                    <select id="castrado"class="par" name="castrado" form="formulario">
+                        <option value="s">O pet é castrado</option>
+                        <option value="n">O pet não é castrado</option>
+
+                    </select> 
+                </div> 
+                <div class=impares> 
+                    <input id="sobre"name="sobre" class="impar" type="text" placeholder="Sobre"> 
+                </div>  
+
+                                             
+                <input class="button_cadastro" type="submit" value="Próximo">      
+            </form>
+            
+            
+        </div>
+        <div class="cadastro2">
+            <h3>Crie sua conta <strong>grátis</strong></h3>
+                <form id="cadastro2" onsubmit = "return verifyCadastro1()"name="inputs">
+                    <input name="cpf" class="cpf" type="text" placeholder="CPF" onblur="verifyCPF()">
+                    <select name="estado" class="estado" autofocus>
+                        <option value="">Estado</option>
+                        <option value="AC">Acre</option>
+                        <option value="AL">Alagoas</option>
+                        <option value="AP">Amapá</option>
+                        <option value="AM">Amazonas</option>
+                        <option value="BA">Bahia</option>
+                        <option value="CE">Ceará</option>
+                        <option value="DF">Distrito Federal</option>
+                        <option value="ES">Espírito Santo</option>
+                        <option value="GO">Goiás</option>
+                        <option value="MA">Maranhão</option>
+                        <option value="MT">Mato Grosso</option>
+                        <option value="MS">Mato Grosso do Sul</option>
+                        <option value="MG">Minas Gerais</option>
+                        <option value="PA">Pará</option>
+                        <option value="PB">Paraíba</option>
+                        <option value="PR">Paraná</option>
+                        <option value="PE">Pernambuco</option>
+                        <option value="PI">Piauí</option>
+                        <option value="RJ">Rio de Janeiro</option>
+                        <option value="RN">Rio Grande do Norte</option>
+                        <option value="RS">Rio Grande do Sul</option>
+                        <option value="RO">Rondônia</option>
+                        <option value="RR">Roraima</option>
+                        <option value="SC">Santa Catarina</option>
+                        <option value="SP">São Paulo</option>
+                        <option value="SE">Sergipe</option>
+                        <option value="TO">Tocantins</option>
+                    </select>
+                    <input name="cidade" class="cidade" type="text" placeholder="Cidade" onblur="verifyCidade()">
+                    <input class="button1" type="submit" value="Próximo">
+                </form> 
+        </div>
+        <div class="cadastro1">
+            <h3>Crie a sua conta <strong>grátis</strong></h3> 
+                       
+            
+            <form id="cadastro1"onsubmit="return verificar_cadastro()" name = "formulario">               
+                <input name="nome" class = "nome" type="text" placeholder="Nome">              
+                <input name="email" class="email" type="text" placeholder="Email">               
+                <input name="senha1" class="senha1" type="password" placeholder="Senha">
+                <input name="senha2" class="senha2" type="password" placeholder="Senha">                              
+                <input class="button_cadastro" type="submit" value="Próximo">      
+            </form>
+            
+            
+        </div>
+
+    </div>
+
+</body>
+</html>

@@ -45,11 +45,13 @@ h3{
     margin: 0px;
 }
 
-.cadastro4{
+
+.cadastro3{
+    position: absolute;
     margin-top: 40px;
     background-color: #F6F6F6;
     border-radius: 20px;
-    height: 100%;
+    height: 60%;
     width: 25%;
     min-height: 500px;
     min-width: 400px;
@@ -59,52 +61,66 @@ h3{
     align-items: center;
     justify-content: space-around;
     padding-bottom: 20px;
+    
     padding-top: 20px;
 }
 
-h2{
-    font-family: Merriweather Sans;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    color: darkslategrey;
-}
-
-img {
-    border-radius: 20px;
-    width: 40%;
-
-
-}
-
-div#fotos{
-    width: 75%;
+form {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    height: 80%;
+    width: 100%;
+    margin-top: 60px;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+.impar {
+    width: 100%;
+    margin: 2px;
+}
+
+.pares{
+    display: flex;
+    flex-direction:row;
+    width: 90%;
+    height: 13%;
+    margin: 8px 0px 8px 0px;
+}
+
+.impares{
+    display: flex;
+    width: 90%;
+    height: 13%;
+    margin: 8px 0px 8px 0px;
+}
+
+.par {
+    display: flex;
+    width: 10%;
+    margin: 2px;
 
 }
 
-input.button1{
+select {
+    min-width: 48%;
+}
+
+input {
+    min-width: 47%;
+}
+
+input.button_cadastro{
     border-radius: 75px;
     background-color: #05C1FC;
     border: 0px;
     color: white;
-    height: 45px;
+    height: 12%;
     width: 70%;
+    margin-top: 15px;
     font-family: Merriweather Sans;
     font-size: 23px;
 }
 
-input#botaoadd{
-    margin-bottom: 60px;
-    background: url(botaomais.png) no repeat;
-}
-form {
-    display: flex;
-    flex-direction: column;
-    height: 40%;
-    width: 100%;
-    justify-content: flex-end;
-    align-items: center;
-}

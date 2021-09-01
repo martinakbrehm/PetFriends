@@ -1,17 +1,47 @@
+
 // Espera carregar a página
 document.addEventListener('DOMContentLoaded', function() {
     
+    //Guarda o formulario em constante
+    const formCadastro2 = document.querySelector('#cadastro2')
     //Guarda os inputs em constantes
     const cpf = document.querySelector('.cpf')
     const estado = document.querySelector('.estado')
     const cidade = document.querySelector('.cidade')
-
+    const petsURL = 'http://localhost:3000/pets'
     //Espera os eventos de blur ou click nos elementos selecionados
     cpf.addEventListener("blur", verifyCPF)
     estado.addEventListener("focusin", verifyEstado)
     cidade.addEventListener("blur", verifyCidade)
 
+    formCadastro2.addEventListener('submit', (e) => {
+        e.preventDefault()
+
+        console.log(e.target)
+
+        const valorCPF = formCadastro2.querySelector('.cpf').value
+        const valorEstado = formCadastro2.querySelector('.estado').value
+        const valorCidade = formCadastro2.querySelector('.cidade').value
+        
+        fetch(`${petsURL}`,{
+            method: 'POST',
+            body: JSON.stringify({
+                cpf: cpf,
+                estado: estado,
+                cidade: cidade
+            }),
+            headers: {
+                'Content-Type': 'application/json'
+            }
+        
+        }).then(response => response.json())
+        
+        
+    })
 })
+
+
+
 
 
 function verifyCPF() {

@@ -10,17 +10,17 @@ document.addEventListener('DOMContentLoaded', function() {
         .then( petData => petData.forEach(function(pet) {
         background.innerHTML += `
         <div class="card" id=${pet.id}>
-        <img src=${pet.foto}>
+        <img class="foto"src=${pet.foto == "" ? "../assets/jonas.png" : pet.foto}>
         <div class="descricao">
             <div class="nome">
-                <h2>${pet.nome},</h2><h2 class="idade">${pet.idade} anos</>
+                <h2>${pet.nome},</h2><h2 class="idade">${pet.idade}</>
             </div>
             <p class="raca">${pet.raca}</p>
             <p class="sobre">${pet.sobre}</p>    
         </div>
         <div class="buttons">
-            <button class="dislike"><img class="icon" src="assets/dislike.png" onclick="hideCard()"></button>
-            <button class="like"><img class="icon" src="assets/like.png" onclick="hideCard()"></button>
+            <button class="dislike"><img class="icon" src="../assets/dislike.png" onclick="hideCard()"></button>
+            <button class="like"><img class="icon" src="../assets/like.png" onclick="hideCard()"></button>
         </div>
         </div> `
         nro_pets = pet.id
@@ -30,7 +30,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 function hideCard(){
     const card = document.getElementById(nro_pets)
-    nro_pets -= 1
+    nro_pets == 1 ? (window.alert("Você chegou no fim")) : nro_pets -= 1
     card.style.display = 'none'
 
 }
