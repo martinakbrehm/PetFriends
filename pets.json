@@ -1,38 +1,88 @@
 {
-    "pets": [
-        {
-            "dono": "Gabriel",
-            "cpf":"00000000000",
-            "email":"exemplo@gmail.com",
-            "nome": "Guto",
-            "natureza": "cachorro",
-            "raca": "Golden retriever",
-            "idade": 2,
-            "sexo": "M",
-            "tamanho": "Médio",
-            "castrado": "sim",
-            "sobre": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer viverra leo vitae lectus pretium, a laoreet nunc ultricies. Sed quis convallis tellus. Praesent ut faucibus eros. Nam ex velit, blandit id mauris vel, vulputate suscipit nisl. Curabitur arcu massa, ultrices a sapien eget, fermentum feugiat neque. Donec convallis in eros non porttitor. ",
-            "foto": "assets/jonas.png",
-            "id": 1
-        },
-
-        {
-            "dono": "Gabriel",
-            "cpf":"00000000000",
-            "email":"exemplo@gmail.com",
-            "nome": "Nico",
-            "natureza": "cachorro",
-            "raca": "Huskey",
-            "idade": 2,
-            "sexo": "M",
-            "tamanho": "Médio",
-            "castrado": "sim",
-            "sobre": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer viverra leo vitae lectus pretium, a laoreet nunc ultricies. Sed quis convallis tellus. Praesent ut faucibus eros. Nam ex velit, blandit id mauris vel, vulputate suscipit nisl. Curabitur arcu massa, ultrices a sapien eget, fermentum feugiat neque. Donec convallis in eros non porttitor. ",
-            "foto": "assets/jonas.png",
-            "id": 2
-        }
-
-
-    ]
-
+  "pets": [
+    {
+      "dono": "Gabriel",
+      "cpf": "00000000000",
+      "email": "exemplo@gmail.com",
+      "nome": "Guto",
+      "natureza": "cachorro",
+      "raca": "Golden retriever",
+      "idade": 2,
+      "sexo": "M",
+      "tamanho": "Médio",
+      "castrado": "sim",
+      "sobre": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer viverra leo vitae lectus pretium, a laoreet nunc ultricies. Sed quis convallis tellus. Praesent ut faucibus eros. Nam ex velit, blandit id mauris vel, vulputate suscipit nisl. Curabitur arcu massa, ultrices a sapien eget, fermentum feugiat neque. Donec convallis in eros non porttitor. ",
+      "foto": "../assets/jonas.png",
+      "id": 1
+    },
+    {
+      "dono": "Gabriel",
+      "cpf": "00000000000",
+      "email": "exemplo@gmail.com",
+      "nome": "Nico",
+      "natureza": "cachorro",
+      "raca": "Huskey",
+      "idade": 2,
+      "sexo": "M",
+      "tamanho": "Médio",
+      "castrado": "sim",
+      "sobre": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer viverra leo vitae lectus pretium, a laoreet nunc ultricies. Sed quis convallis tellus. Praesent ut faucibus eros. Nam ex velit, blandit id mauris vel, vulputate suscipit nisl. Curabitur arcu massa, ultrices a sapien eget, fermentum feugiat neque. Donec convallis in eros non porttitor. ",
+      "foto": "../assets/jonas.png",
+      "id": 2
+    },
+    {
+      "email": "gabriel@gmail.com",
+      "senha": "123123123",
+      "dono": "gabriel",
+      "cpf": "121.037.589-35",
+      "estado": "SC",
+      "cidade": "Florianopolis",
+      "nome": "Jonah",
+      "natureza": "cachorro",
+      "raca": "Vira-lata",
+      "idade": "12 anos",
+      "sexo": "m",
+      "tamanho": "3",
+      "castrado": "s",
+      "sobre": "Oi :)",
+      "foto": "",
+      "id": 3
+    },
+    {
+      "email": "gabriel@gmail.com",
+      "senha": "123123123",
+      "dono": "gabriel",
+      "cpf": "121.037.589-35",
+      "estado": "SC",
+      "cidade": "Florianopolis",
+      "nome": "Jonah",
+      "natureza": "cachorro",
+      "raca": "Vira-lata",
+      "idade": "12 anos",
+      "sexo": "m",
+      "tamanho": "3",
+      "castrado": "s",
+      "sobre": "Oi :)",
+      "foto": "https://jooinn.com/images1280_/dogs.jpg",
+      "id": 4
+    },
+    {
+      "email": "gabriel@gmail.com",
+      "senha": "123123123",
+      "dono": "gabriel",
+      "cpf": "121.037.589-35",
+      "estado": "DF",
+      "cidade": "Brasilia",
+      "nome": "Douglas",
+      "natureza": "cachorro",
+      "raca": "Doberman",
+      "idade": "5 anos",
+      "sexo": "m",
+      "tamanho": "2",
+      "castrado": "s",
+      "sobre": "Cão bravo",
+      "foto": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.OW30NMWmslhgDYi5skr1CQHaF7%26pid%3DApi&f=1",
+      "id": 5
+    }
+  ]
 }

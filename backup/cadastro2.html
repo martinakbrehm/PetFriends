@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PetFriends - Cadastro</title>
-    <script src="cadastro2.js"></script>
+    <script src="./cadastro.js"></script>
     <link rel="stylesheet" type="text/css" href="style2.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,9 +17,9 @@
     </header>
 
     <div class="background">
-        <div class="cadastro1">
+        <div class="cadastro2">
             <h3>Crie sua conta grátis</h3>
-                <form onsubmit = "return verifyCadastro1()"name="inputs">
+                <form id="cadastro2" onsubmit = "return verifyCadastro1()"name="inputs">
                     <input name="cpf" class="cpf" type="text" placeholder="CPF" onblur="verifyCPF()">
                     <select name="estado" class="estado" autofocus>
                         <option value="">Estado</option>

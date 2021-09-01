@@ -1,0 +1,600 @@
+body {
+    margin: 0;
+}
+
+header{
+    background-color: #0E60AB;
+    margin: 0;
+    padding: 10px 10vw;
+    display: flex;
+}
+
+h1 {
+    font-family: Roboto;
+    font-size: 45px;
+    margin: 0;
+}
+
+
+.background{
+    height: 60vh;
+    margin: 0;
+    background-color: #0E60AB;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+h3 {
+    font-family: Merriweather Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 200%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+    margin: 0px;
+}
+.login{
+    margin-top: 40px;
+    background-color: #F6F6F6;
+    border-radius: 20px;
+    height: 100%;
+    width: 25%;
+    min-height: 450px;
+    min-width: 400px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.25);
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 20px;
+}
+
+.login-elements{ 
+    height: 90%;
+    width: 100%;
+    min-height: 300px;
+    min-width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    height: 60%;
+    width: 100%;
+    margin-top: 30px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+a {
+    font-family: Merriweather Sans;
+    font-weight: normal;
+    font-size: 14px;
+    text-align: right;
+    margin-right: 40px;
+}
+
+input {
+    width: 90%;
+    min-width: 300px;
+    height: 9%;
+    min-height: 43px;
+}
+
+input.email {
+    margin: 0px 0px 5px 0px;
+}
+
+input.password {
+    margin: 10% 0px 5px 0px;
+ }
+/* 
+div.button{
+    display:flex;
+    width: 100%;
+    margin-right: 80px;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+ */
+input.button{
+    /*margin: 10% 5%;*/
+    border-radius: 75px;
+    background-color: #05C1FC;
+    border: 0px;
+    color: white;
+    height: 12%;
+    width: 70%;
+    margin-top: 80px;
+    font-family: Merriweather Sans;
+    font-size: 23px;
+}
+
+div.cadastro {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+p {
+    margin: 0px;
+    font-family: Merriweather Sans;
+    font-size: 16px;
+}
+
+
+a.cadastro{
+    margin: 0px 0px 0px 6px;
+    font-family: Merriweather Sans;
+    font-size: 16px;
+}
+
+.card{
+    position: absolute;
+    margin-top: 40px;
+    background-color: #F6F6F6;
+    border-radius: 20px;
+    height: 60%;
+    width: 33%;
+    min-height: 750px;
+    min-width: 600px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.25);
+    align-items: center;
+    justify-content: flex-start;
+    padding-bottom: 20px;
+}
+
+
+img.foto {
+    border-radius: 18px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-family: Roboto;
+    font-size: 30px;
+    margin: 0;
+    margin-right: 5px;
+}
+
+h2.raca {
+    font-family: Roboto;
+    font-size: 30px;
+    margin: 0;
+    margin-right: 5px;
+}
+
+h2.idade {
+    font-weight: 300;
+}
+
+div.descricao{
+    width: 90%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+div.nome {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+p.raca {
+    font-family: Roboto;
+    font-weight: 700;
+    margin: 8px 0px;
+}
+
+p.sobre {
+    font-weight: 500;
+    font-size: 14px;
+    margin-top: 15px;
+}
+
+div.buttons{
+    padding-top: 40px;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+button {
+    border-radius: 50px;
+    width: 86.16px;
+    min-width: 86px;
+    height: 87.06px;
+}
+
+img.icon {
+    height: 60%;
+    width: 70%;
+}
+
+
+.cadastro1{
+    position: absolute;
+    margin-top: 40px;
+    background-color: #F6F6F6;
+    border-radius: 20px;
+    height: 60%;
+    width: 25%;
+    min-height: 500px;
+    min-width: 400px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.25);
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    height: 80%;
+    width: 100%;
+    margin-top: 60px;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+input {
+    width: 90%;
+    min-width: 300px;
+    height: 9%;
+    min-height: 43px;
+}
+
+
+input.nome {
+    margin: 0px 0px 5px 0px;
+}
+
+
+input.email {
+    margin: 10% 0px 5px 0px;
+}
+
+
+input.senha1 {
+    margin: 10% 0px 0px 0px;
+}
+
+input.senha2 {
+    margin: 10% 0px 5px 0px;
+}
+
+input.button_cadastro{
+    border-radius: 75px;
+    background-color: #05C1FC;
+    border: 0px;
+    color: white;
+    height: 12%;
+    width: 70%;
+    margin-top: 15px;
+    font-family: Merriweather Sans;
+    font-size: 23px;
+}
+
+.cadastro2{
+    position: absolute;
+    margin-top: 40px;
+    background-color: #F6F6F6;
+    border-radius: 20px;
+    height: 60%;
+    width: 25%;
+    min-height: 500px;
+    min-width: 400px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.25);
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    height: 80%;
+    width: 100%;
+    margin-top: 60px;
+    align-items: center;
+    justify-content: center;
+}
+
+input {
+    width: 90%;
+    min-width: 300px;
+    height: 9%;
+    min-height: 43px;
+}
+
+input.cpf {
+    margin: 0px 0px 5px 0px;
+}
+
+input.cidade {
+    margin: 10% 0px 5px 0px;
+}
+
+input.button1{
+    border-radius: 75px;
+    background-color: #05C1FC;
+    border: 0px;
+    color: white;
+    height: 12%;
+    width: 70%;
+    margin-top: 120px;
+    font-family: Merriweather Sans;
+    font-size: 23px;
+}
+
+select {
+    width: 90%;
+    min-width: 300px;
+    height: 9%;
+    min-height: 43px;
+}
+
+select.estado {
+    margin: 10% 0px 5px 0px;
+}
+
+
+.cadastro3{
+    position: absolute;
+    margin-top: 40px;
+    background-color: #F6F6F6;
+    border-radius: 20px;
+    height: 60%;
+    width: 25%;
+    min-height: 500px;
+    min-width: 400px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.25);
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 20px;
+    
+    padding-top: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    height: 80%;
+    width: 100%;
+    margin-top: 60px;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+.impar {
+    width: 100%;
+    margin: 2px;
+}
+
+.pares{
+    display: flex;
+    flex-direction:row;
+    width: 90%;
+    height: 13%;
+    margin: 8px 0px 8px 0px;
+}
+
+.impares{
+    display: flex;
+    width: 90%;
+    height: 13%;
+    margin: 8px 0px 8px 0px;
+}
+
+.par {
+    display: flex;
+    width: 10%;
+    margin: 2px;
+
+}
+
+select {
+    min-width: 48%;
+}
+
+input {
+    min-width: 47%;
+}
+
+input.button_cadastro{
+    border-radius: 75px;
+    background-color: #05C1FC;
+    border: 0px;
+    color: white;
+    height: 12%;
+    width: 70%;
+    margin-top: 15px;
+    font-family: Merriweather Sans;
+    font-size: 23px;
+}
+.cadastro4{
+    position: absolute;
+    margin-top: 40px;
+    background-color: #F6F6F6;
+    border-radius: 20px;
+    height: 60%;
+    width: 25%;
+    min-height: 500px;
+    min-width: 400px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.25);
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+h2.fotos{
+    font-family: Merriweather Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: darkslategrey;
+}
+
+
+
+input.button1{
+    border-radius: 75px;
+    background-color: #05C1FC;
+    border: 0px;
+    color: white;
+    height: 45px;
+    width: 70%;
+    font-family: Merriweather Sans;
+    font-size: 23px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    height: 60%;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+input#foto {
+    width: 80%;
+}
+
+.cadastro5{
+    position :absolute;
+    margin-top: 40px;
+    background-color: #F6F6F6;
+    border-radius: 20px;
+    height: 60%;
+    width: 25%;
+    min-height: 500px;
+    min-width: 400px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.25);
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+div.inputs{
+    display: flex;
+    flex-direction: column;
+    height: 40%;
+    width: 100%;
+    padding-left: 35px;
+}
+
+input {
+    width: 90%;
+    min-width: 300px;
+    height: 9%;
+    min-height: 43px;
+}
+
+input {
+    min-width: 47%;
+}
+
+input.cpf {
+    margin: 0px 0px 5px 0px;
+}
+
+input.estado {
+    margin: 10% 0px 5px 0px;
+}
+
+input.cidade {
+    margin: 10% 0px 5px 0px;
+}
+
+input.button1{
+    border-radius: 75px;
+    background-color: #05C1FC;
+    border: 0px;
+    color: white;
+    height: 12%;
+    width: 70%;
+    font-family: Merriweather Sans;
+    font-size: 23px;
+}
+
+a {
+    font-family: Merriweather Sans;
+    font-weight: normal;
+    font-size: 14px;
+    text-align: center;
+    margin: 100px 0px 0px 0px;
+}
+
+h4.colados1{
+    font-family: Merriweather Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+    margin: 100px 0px 0px 0px;
+}
+
+h4.colados2{
+    font-family: Merriweather Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+    margin: 0px;
+}
+
+strong{
+    margin-left: 5px;
+}
+
+h1.pet{
+    color: white;
+}
+
+h1.friends{
+    color: #05C1FC;
+}
