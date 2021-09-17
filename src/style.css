@@ -162,6 +162,7 @@ a.cadastro{
 img.foto {
     border-radius: 18px;
     width: 100%;
+    height: 400px;
     margin-bottom: 20px;
 }
 
