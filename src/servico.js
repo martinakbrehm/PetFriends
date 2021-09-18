@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     const background = document.querySelector('.background')
 
-    const petsURL = 'http://localhost:3000/pets'
+    const petsURL = 'http://localhost:3001/pets'
     
     fetch(`${petsURL}`)
         .then( response => response.json() )

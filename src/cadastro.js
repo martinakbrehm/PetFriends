@@ -7,7 +7,7 @@ function hideCard(){
     cadastro.style.display = 'none'
 }
 
-const petsURL = 'http://localhost:3000/pets'
+const petsURL = 'http://localhost:3001/pets'
 
 // Espera carregar a página
 document.addEventListener('DOMContentLoaded', function() {
@@ -128,7 +128,6 @@ document.addEventListener('DOMContentLoaded', function() {
         }).then(response => response.json())
         
     })
-
 
 })
 
