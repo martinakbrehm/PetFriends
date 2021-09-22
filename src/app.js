@@ -28,7 +28,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
 app.get('/', function(req, res){
-    res.send('Página Principal')
+    res.sendFile(__dirname + '/src/cadastro.html')
 })
 
 app.get('/cadastro', function(req, res){
