@@ -1,10 +1,11 @@
 
 PARA RODAR O APLICATIVO
 
-1. ```npm install```
+```npm install```
 <br>
-2. ```npm start```
-<br><br>
+```npm start```
+<br>
+<br>
 Caso ```npm start``` não funcione, tente ```nodemon src/app.js```
 
 # PetFriends
