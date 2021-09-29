@@ -34,7 +34,10 @@ document.addEventListener('DOMContentLoaded', function() {
         const valorSenha = senha2.value
         const valorNome = nome.value
 
-        valores = { email: valorEmail, senha: valorSenha, dono: valorNome }
+        fetch(`${petsURL}`)
+            .then((response) => response.json())
+            .then((petData) => (valores = { email: valorEmail, senha: valorSenha, dono: valorNome, id: (petData[petData.length-1].id)+1 })) 
+        
         console.log(valores)
 
     })
